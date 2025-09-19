@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 7.0+ (API 24) 이상에서 사용할 추가 문자열 -->
+    <string name="notification_channel_name">갤러리 알림</string>
+    <string name="notification_channel_description">이미지 처리 및 저장 관련 알림</string>
+    
+    <!-- 권한 관련 추가 메시지 -->
+    <string name="permission_rationale_title">권한이 필요합니다</string>
+    <string name="permission_rationale_message">이 기능을 사용하려면 다음 권한이 필요합니다:</string>
+    <string name="permission_settings_title">설정으로 이동</string>
+    <string name="permission_settings_message">권한을 허용하려면 설정으로 이동해주세요.</string>
+    
+    <!-- 고급 기능 -->
+    <string name="advanced_settings">고급 설정</string>
+    <string name="image_quality">이미지 품질</string>
+    <string name="cache_size">캐시 크기</string>
+    <string name="auto_backup">자동 백업</string>
+    
+    <!-- 에러 메시지 추가 -->
+    <string name="error_network">네트워크 연결을 확인해주세요</string>
+    <string name="error_storage_full">저장 공간이 부족합니다</string>
+    <string name="error_corrupted_file">손상된 파일입니다</string>
+    <string name="error_unsupported_format">지원하지 않는 파일 형식입니다</string>
+</resources>

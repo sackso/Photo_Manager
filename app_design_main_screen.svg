@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="800" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="400" height="800" fill="#F5F5F5"/>
+  
+  <!-- 상단 앱바 -->
+  <rect x="0" y="0" width="400" height="80" fill="#6200EE"/>
+  <text x="200" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">스마트 갤러리</text>
+  
+  <!-- 하단 네비게이션 -->
+  <rect x="0" y="720" width="400" height="80" fill="#6200EE"/>
+  
+  <!-- 갤러리 탭 -->
+  <rect x="50" y="740" width="100" height="40" fill="none" stroke="white" stroke-width="2" rx="5"/>
+  <text x="100" y="765" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">사진</text>
+  
+  <!-- 지도 탭 -->
+  <rect x="250" y="740" width="100" height="40" fill="none" stroke="white" stroke-width="2" rx="5"/>
+  <text x="300" y="765" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">지도</text>
+  
+  <!-- 갤러리 그리드 (3x4) -->
+  <g id="gallery-grid">
+    <!-- 첫 번째 행 -->
+    <rect x="20" y="100" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="145" y="100" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="270" y="100" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    
+    <!-- 두 번째 행 -->
+    <rect x="20" y="230" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="145" y="230" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="270" y="230" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    
+    <!-- 세 번째 행 -->
+    <rect x="20" y="360" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="145" y="360" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="270" y="360" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    
+    <!-- 네 번째 행 -->
+    <rect x="20" y="490" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="145" y="490" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+    <rect x="270" y="490" width="110" height="110" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+  </g>
+  
+  <!-- GPS 아이콘 (일부 이미지에) -->
+  <circle cx="320" cy="120" r="12" fill="#4CAF50"/>
+  <text x="320" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GPS</text>
+  
+  <circle cx="195" cy="250" r="12" fill="#4CAF50"/>
+  <text x="195" y="255" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GPS</text>
+  
+  <circle cx="320" cy="380" r="12" fill="#4CAF50"/>
+  <text x="320" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GPS</text>
+  
+  <!-- 이미지 정보 오버레이 -->
+  <rect x="20" y="190" width="110" height="20" fill="rgba(0,0,0,0.7)" rx="3"/>
+  <text x="25" y="203" fill="white" font-family="Arial, sans-serif" font-size="8">IMG_20240115.jpg</text>
+  
+  <rect x="145" y="190" width="110" height="20" fill="rgba(0,0,0,0.7)" rx="3"/>
+  <text x="150" y="203" fill="white" font-family="Arial, sans-serif" font-size="8">IMG_20240114.jpg</text>
+  
+  <!-- 로딩 인디케이터 -->
+  <circle cx="200" cy="620" r="20" fill="none" stroke="#6200EE" stroke-width="3" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+    <animate attributeName="stroke-dashoffset" values="31.416;0;31.416" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="625" text-anchor="middle" fill="#6200EE" font-family="Arial, sans-serif" font-size="12">로딩 중...</text>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 배경 -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- 갤러리 아이콘 -->
+    <group android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        
+        <!-- 사진 프레임 1 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,20h20v20h-20z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M22,22h16v16h-16z" />
+        
+        <!-- 사진 프레임 2 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,20h20v20h-20z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M47,22h16v16h-16z" />
+        
+        <!-- 사진 프레임 3 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,45h20v20h-20z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M22,47h16v16h-16z" />
+        
+        <!-- 사진 프레임 4 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,45h20v20h-20z" />
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M47,47h16v16h-16z" />
+        
+        <!-- GPS 아이콘 -->
+        <circle
+            android:fillColor="#4CAF50"
+            android:cx="55"
+            android:cy="25"
+            android:r="3" />
+    </group>
+</vector>

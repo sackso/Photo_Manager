@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- 제목 -->
+  <text x="400" y="30" text-anchor="middle" fill="#212121" font-family="Arial, sans-serif" font-size="24" font-weight="bold">스마트 갤러리 앱 플로우 다이어그램</text>
+  
+  <!-- 시작 화면 -->
+  <rect x="50" y="80" width="120" height="80" fill="#6200EE" rx="10"/>
+  <text x="110" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">앱 시작</text>
+  <text x="110" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">MainActivity</text>
+  <text x="110" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">권한 요청</text>
+  
+  <!-- 권한 확인 -->
+  <rect x="220" y="80" width="120" height="80" fill="#FF9800" rx="10"/>
+  <text x="280" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">권한 확인</text>
+  <text x="280" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">저장소 접근</text>
+  <text x="280" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">위치 정보</text>
+  
+  <!-- 탭 선택 -->
+  <rect x="390" y="80" width="120" height="80" fill="#4CAF50" rx="10"/>
+  <text x="450" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">탭 선택</text>
+  <text x="450" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">사진 / 지도</text>
+  
+  <!-- 화살표들 -->
+  <path d="M 170 120 L 220 120" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 340 120 L 390 120" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 갤러리 분기 -->
+  <rect x="50" y="220" width="120" height="80" fill="#2196F3" rx="10"/>
+  <text x="110" y="245" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">갤러리</text>
+  <text x="110" y="265" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">이미지 목록</text>
+  <text x="110" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">3x3 그리드</text>
+  
+  <!-- 지도 분기 -->
+  <rect x="220" y="220" width="120" height="80" fill="#9C27B0" rx="10"/>
+  <text x="280" y="245" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">지도</text>
+  <text x="280" y="265" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GPS 이미지</text>
+  <text x="280" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">구글 맵</text>
+  
+  <!-- 이미지 상세 -->
+  <rect x="50" y="360" width="120" height="80" fill="#FF5722" rx="10"/>
+  <text x="110" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">이미지 상세</text>
+  <text x="110" y="405" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">확대 보기</text>
+  <text x="110" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">설명 편집</text>
+  
+  <!-- 지도 상세 -->
+  <rect x="220" y="360" width="120" height="80" fill="#795548" rx="10"/>
+  <text x="280" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">지도 상세</text>
+  <text x="280" y="405" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">마커 표시</text>
+  <text x="280" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">썸네일</text>
+  
+  <!-- 파일 저장 -->
+  <rect x="390" y="360" width="120" height="80" fill="#607D8B" rx="10"/>
+  <text x="450" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">파일 저장</text>
+  <text x="450" y="405" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">txt 파일</text>
+  <text x="450" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">설명 저장</text>
+  
+  <!-- 구글 맵 연동 -->
+  <rect x="560" y="360" width="120" height="80" fill="#E91E63" rx="10"/>
+  <text x="620" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">구글 맵</text>
+  <text x="620" y="405" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">외부 앱</text>
+  <text x="620" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">위치 표시</text>
+  
+  <!-- 화살표들 -->
+  <path d="M 110 200 L 110 220" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 280 200 L 280 220" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 110 300 L 110 360" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 280 300 L 280 360" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 170 400 L 220 400" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 340 400 L 390 400" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 510 400 L 560 400" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 분기 라벨 -->
+  <text x="200" y="210" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">사진 탭</text>
+  <text x="370" y="210" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">지도 탭</text>
+  
+  <!-- 기능 설명 -->
+  <rect x="50" y="480" width="700" height="100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="10"/>
+  <text x="60" y="505" fill="#212121" font-family="Arial, sans-serif" font-size="14" font-weight="bold">주요 기능:</text>
+  <text x="60" y="525" fill="#666" font-family="Arial, sans-serif" font-size="12">• 이미지 갤러리: 스마트기기의 모든 이미지를 3x3 그리드로 표시</text>
+  <text x="60" y="545" fill="#666" font-family="Arial, sans-serif" font-size="12">• 이미지 상세보기: 클릭 시 확대 이미지와 메타데이터 표시</text>
+  <text x="60" y="565" fill="#666" font-family="Arial, sans-serif" font-size="12">• 설명 편집: 이미지에 대한 설명을 입력하고 txt 파일로 저장</text>
+  
+  <!-- 화살표 마커 정의 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

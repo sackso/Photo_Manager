@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="1000" height="700" fill="#F8F9FA"/>
+  
+  <!-- 제목 -->
+  <text x="500" y="30" text-anchor="middle" fill="#212121" font-family="Arial, sans-serif" font-size="24" font-weight="bold">스마트 갤러리 앱 아키텍처</text>
+  
+  <!-- UI Layer -->
+  <rect x="50" y="60" width="900" height="120" fill="#E3F2FD" stroke="#2196F3" stroke-width="2" rx="10"/>
+  <text x="500" y="85" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">UI Layer (Activities & Fragments)</text>
+  
+  <!-- Activities -->
+  <rect x="80" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="130" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MainActivity</text>
+  <text x="130" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">탭 구조</text>
+  <text x="130" y="148" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">권한 처리</text>
+  
+  <rect x="200" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="250" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GalleryActivity</text>
+  <text x="250" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">이미지 갤러리</text>
+  <text x="250" y="148" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">그리드 표시</text>
+  
+  <rect x="320" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="370" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ImageDetailActivity</text>
+  <text x="370" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">이미지 상세</text>
+  <text x="370" y="148" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">설명 편집</text>
+  
+  <rect x="440" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="490" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MapActivity</text>
+  <text x="490" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">구글 맵</text>
+  <text x="490" y="148" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">GPS 표시</text>
+  
+  <!-- Fragments -->
+  <rect x="560" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="610" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GalleryFragment</text>
+  <text x="610" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">갤러리 프래그먼트</text>
+  
+  <rect x="680" y="100" width="100" height="60" fill="#FFFFFF" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="730" y="120" text-anchor="middle" fill="#1976D2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MapFragment</text>
+  <text x="730" y="135" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">지도 프래그먼트</text>
+  
+  <!-- Adapter Layer -->
+  <rect x="50" y="200" width="900" height="100" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2" rx="10"/>
+  <text x="500" y="225" text-anchor="middle" fill="#7B1FA2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Adapter Layer (RecyclerView Adapters)</text>
+  
+  <rect x="200" y="250" width="120" height="40" fill="#FFFFFF" stroke="#9C27B0" stroke-width="1" rx="5"/>
+  <text x="260" y="270" text-anchor="middle" fill="#7B1FA2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ImageAdapter</text>
+  <text x="260" y="282" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">갤러리 이미지</text>
+  
+  <rect x="350" y="250" width="120" height="40" fill="#FFFFFF" stroke="#9C27B0" stroke-width="1" rx="5"/>
+  <text x="410" y="270" text-anchor="middle" fill="#7B1FA2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MapImageAdapter</text>
+  <text x="410" y="282" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">지도 이미지</text>
+  
+  <!-- Business Logic Layer -->
+  <rect x="50" y="320" width="900" height="120" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2" rx="10"/>
+  <text x="500" y="345" text-anchor="middle" fill="#388E3C" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Business Logic Layer (Utils)</text>
+  
+  <rect x="100" y="370" width="120" height="60" fill="#FFFFFF" stroke="#4CAF50" stroke-width="1" rx="5"/>
+  <text x="160" y="390" text-anchor="middle" fill="#388E3C" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ImageUtils</text>
+  <text x="160" y="405" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">이미지 처리</text>
+  <text x="160" y="418" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">썸네일 생성</text>
+  
+  <rect x="250" y="370" width="120" height="60" fill="#FFFFFF" stroke="#4CAF50" stroke-width="1" rx="5"/>
+  <text x="310" y="390" text-anchor="middle" fill="#388E3C" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GPSUtils</text>
+  <text x="310" y="405" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">GPS 추출</text>
+  <text x="310" y="418" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">좌표 변환</text>
+  
+  <rect x="400" y="370" width="120" height="60" fill="#FFFFFF" stroke="#4CAF50" stroke-width="1" rx="5"/>
+  <text x="460" y="390" text-anchor="middle" fill="#388E3C" font-family="Arial, sans-serif" font-size="12" font-weight="bold">FileUtils</text>
+  <text x="460" y="405" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">파일 처리</text>
+  <text x="460" y="418" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">txt 저장/로드</text>
+  
+  <!-- Data Layer -->
+  <rect x="50" y="460" width="900" height="100" fill="#FFF3E0" stroke="#FF9800" stroke-width="2" rx="10"/>
+  <text x="500" y="485" text-anchor="middle" fill="#F57C00" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Data Layer (Models)</text>
+  
+  <rect x="150" y="510" width="120" height="40" fill="#FFFFFF" stroke="#FF9800" stroke-width="1" rx="5"/>
+  <text x="210" y="530" text-anchor="middle" fill="#F57C00" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ImageData</text>
+  <text x="210" y="542" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">이미지 메타데이터</text>
+  
+  <rect x="300" y="510" width="120" height="40" fill="#FFFFFF" stroke="#FF9800" stroke-width="1" rx="5"/>
+  <text x="360" y="530" text-anchor="middle" fill="#F57C00" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GPSData</text>
+  <text x="360" y="542" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">GPS 좌표 정보</text>
+  
+  <!-- External Services -->
+  <rect x="50" y="580" width="900" height="80" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="10"/>
+  <text x="500" y="605" text-anchor="middle" fill="#D32F2F" font-family="Arial, sans-serif" font-size="18" font-weight="bold">External Services</text>
+  
+  <rect x="150" y="620" width="120" height="30" fill="#FFFFFF" stroke="#F44336" stroke-width="1" rx="5"/>
+  <text x="210" y="638" text-anchor="middle" fill="#D32F2F" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Google Maps API</text>
+  
+  <rect x="300" y="620" width="120" height="30" fill="#FFFFFF" stroke="#F44336" stroke-width="1" rx="5"/>
+  <text x="360" y="638" text-anchor="middle" fill="#D32F2F" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MediaStore</text>
+  
+  <rect x="450" y="620" width="120" height="30" fill="#FFFFFF" stroke="#F44336" stroke-width="1" rx="5"/>
+  <text x="510" y="638" text-anchor="middle" fill="#D32F2F" font-family="Arial, sans-serif" font-size="12" font-weight="bold">File System</text>
+  
+  <rect x="600" y="620" width="120" height="30" fill="#FFFFFF" stroke="#F44336" stroke-width="1" rx="5"/>
+  <text x="660" y="638" text-anchor="middle" fill="#D32F2F" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Glide Library</text>
+  
+  <!-- 연결선들 -->
+  <path d="M 130 180 L 130 200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 250 180 L 250 200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 370 180 L 370 200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 490 180 L 490 200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <path d="M 260 300 L 260 320" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 410 300 L 410 320" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <path d="M 160 440 L 160 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 310 440 L 310 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 460 440 L 460 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <path d="M 210 560 L 210 580" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 360 560 L 360 580" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 화살표 마커 정의 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

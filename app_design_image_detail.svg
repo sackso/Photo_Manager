@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="800" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="400" height="800" fill="#FFFFFF"/>
+  
+  <!-- 상단 앱바 -->
+  <rect x="0" y="0" width="400" height="80" fill="#6200EE"/>
+  <text x="200" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">이미지 상세</text>
+  
+  <!-- 뒤로가기 버튼 -->
+  <polygon points="20,30 40,20 40,40" fill="white"/>
+  
+  <!-- 이미지 표시 영역 -->
+  <rect x="20" y="100" width="360" height="300" fill="#000000" stroke="#E0E0E0" stroke-width="1" rx="8"/>
+  
+  <!-- 이미지 플레이스홀더 -->
+  <rect x="40" y="120" width="320" height="260" fill="#333333" rx="4"/>
+  <text x="200" y="250" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">이미지 미리보기</text>
+  
+  <!-- GPS 아이콘 -->
+  <circle cx="360" cy="120" r="15" fill="#4CAF50"/>
+  <text x="360" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">GPS</text>
+  
+  <!-- 이미지 정보 섹션 -->
+  <rect x="20" y="420" width="360" height="120" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="8"/>
+  <text x="30" y="445" fill="#212121" font-family="Arial, sans-serif" font-size="16" font-weight="bold">이미지 정보</text>
+  
+  <!-- 파일 크기 -->
+  <text x="30" y="470" fill="#757575" font-family="Arial, sans-serif" font-size="14">파일 크기</text>
+  <text x="300" y="470" fill="#212121" font-family="Arial, sans-serif" font-size="14">2.5 MB</text>
+  
+  <!-- 해상도 -->
+  <text x="30" y="490" fill="#757575" font-family="Arial, sans-serif" font-size="14">해상도</text>
+  <text x="300" y="490" fill="#212121" font-family="Arial, sans-serif" font-size="14">1920 x 1080</text>
+  
+  <!-- 촬영 날짜 -->
+  <text x="30" y="510" fill="#757575" font-family="Arial, sans-serif" font-size="14">촬영 날짜</text>
+  <text x="300" y="510" fill="#212121" font-family="Arial, sans-serif" font-size="14">2024-01-15 14:30</text>
+  
+  <!-- GPS 좌표 -->
+  <text x="30" y="530" fill="#757575" font-family="Arial, sans-serif" font-size="14">GPS 좌표</text>
+  <text x="300" y="530" fill="#2196F3" font-family="Arial, sans-serif" font-size="14" text-decoration="underline">37.5665, 126.9780</text>
+  
+  <!-- 설명 입력 섹션 -->
+  <rect x="20" y="560" width="360" height="180" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="8"/>
+  <text x="30" y="585" fill="#212121" font-family="Arial, sans-serif" font-size="16" font-weight="bold">이미지 설명</text>
+  
+  <!-- 설명 입력 필드 -->
+  <rect x="30" y="600" width="340" height="100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="8"/>
+  <text x="40" y="620" fill="#BDBDBD" font-family="Arial, sans-serif" font-size="14">이미지에 대한 설명을 입력하세요 (3줄 이내)</text>
+  
+  <!-- 저장 버튼 -->
+  <rect x="30" y="720" width="340" height="50" fill="#2196F3" rx="8"/>
+  <text x="200" y="750" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">설명 저장</text>
+</svg>

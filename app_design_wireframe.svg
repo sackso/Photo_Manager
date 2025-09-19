@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="1200" height="800" fill="#F8F9FA"/>
+  
+  <!-- 제목 -->
+  <text x="600" y="30" text-anchor="middle" fill="#212121" font-family="Arial, sans-serif" font-size="24" font-weight="bold">스마트 갤러리 앱 와이어프레임</text>
+  
+  <!-- 메인 화면 와이어프레임 -->
+  <g id="main-screen">
+    <rect x="50" y="60" width="300" height="600" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="10"/>
+    <text x="200" y="85" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">메인 화면 (MainActivity)</text>
+    
+    <!-- 상단 앱바 -->
+    <rect x="60" y="100" width="280" height="60" fill="#6200EE" rx="5"/>
+    <text x="200" y="135" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">스마트 갤러리</text>
+    
+    <!-- 탭 영역 -->
+    <rect x="60" y="180" width="280" height="40" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    <rect x="70" y="185" width="120" height="30" fill="#2196F3" rx="3"/>
+    <text x="130" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">사진</text>
+    <rect x="210" y="185" width="120" height="30" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="3"/>
+    <text x="270" y="205" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">지도</text>
+    
+    <!-- 갤러리 그리드 -->
+    <rect x="60" y="240" width="280" height="360" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    
+    <!-- 3x3 그리드 -->
+    <rect x="70" y="250" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="160" y="250" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="250" y="250" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    
+    <rect x="70" y="340" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="160" y="340" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="250" y="340" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    
+    <rect x="70" y="430" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="160" y="430" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    <rect x="250" y="430" width="80" height="80" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+    
+    <!-- 하단 네비게이션 -->
+    <rect x="60" y="620" width="280" height="30" fill="#6200EE" rx="5"/>
+    <text x="130" y="640" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">사진</text>
+    <text x="270" y="640" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">지도</text>
+  </g>
+  
+  <!-- 이미지 상세 화면 와이어프레임 -->
+  <g id="detail-screen">
+    <rect x="400" y="60" width="300" height="600" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="10"/>
+    <text x="550" y="85" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">이미지 상세 (ImageDetailActivity)</text>
+    
+    <!-- 상단 앱바 -->
+    <rect x="410" y="100" width="280" height="60" fill="#6200EE" rx="5"/>
+    <text x="550" y="135" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">이미지 상세</text>
+    
+    <!-- 이미지 영역 -->
+    <rect x="410" y="180" width="280" height="200" fill="#000000" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    <text x="550" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">이미지 미리보기</text>
+    
+    <!-- 이미지 정보 -->
+    <rect x="410" y="400" width="280" height="100" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    <text x="420" y="425" fill="#666" font-family="Arial, sans-serif" font-size="12" font-weight="bold">이미지 정보</text>
+    <text x="420" y="445" fill="#666" font-family="Arial, sans-serif" font-size="10">파일 크기: 2.5 MB</text>
+    <text x="420" y="460" fill="#666" font-family="Arial, sans-serif" font-size="10">해상도: 1920 x 1080</text>
+    <text x="420" y="475" fill="#666" font-family="Arial, sans-serif" font-size="10">촬영 날짜: 2024-01-15</text>
+    <text x="420" y="490" fill="#666" font-family="Arial, sans-serif" font-size="10">GPS: 37.5665, 126.9780</text>
+    
+    <!-- 설명 입력 -->
+    <rect x="410" y="520" width="280" height="120" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    <text x="420" y="545" fill="#666" font-family="Arial, sans-serif" font-size="12" font-weight="bold">이미지 설명</text>
+    <rect x="420" y="555" width="260" height="60" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="3"/>
+    <text x="430" y="575" fill="#999" font-family="Arial, sans-serif" font-size="10">이미지에 대한 설명을 입력하세요...</text>
+    
+    <!-- 저장 버튼 -->
+    <rect x="420" y="625" width="260" height="25" fill="#2196F3" rx="3"/>
+    <text x="550" y="642" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">설명 저장</text>
+  </g>
+  
+  <!-- 지도 화면 와이어프레임 -->
+  <g id="map-screen">
+    <rect x="750" y="60" width="300" height="600" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="10"/>
+    <text x="900" y="85" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">지도 화면 (MapActivity)</text>
+    
+    <!-- 상단 앱바 -->
+    <rect x="760" y="100" width="280" height="60" fill="#6200EE" rx="5"/>
+    <text x="900" y="135" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">지도</text>
+    
+    <!-- 지도 영역 -->
+    <rect x="760" y="180" width="280" height="400" fill="#E8F5E8" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    
+    <!-- 지도 그리드 -->
+    <defs>
+      <pattern id="mapGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D0D0D0" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect x="760" y="180" width="280" height="400" fill="url(#mapGrid)"/>
+    
+    <!-- 마커들 -->
+    <circle cx="850" cy="250" r="5" fill="#F44336"/>
+    <circle cx="950" cy="350" r="5" fill="#F44336"/>
+    <circle cx="900" cy="450" r="5" fill="#F44336"/>
+    <circle cx="800" cy="500" r="5" fill="#F44336"/>
+    
+    <!-- 지도 컨트롤 -->
+    <rect x="1000" y="200" width="30" height="80" fill="white" stroke="#E0E0E0" stroke-width="1" rx="3"/>
+    <rect x="1005" y="205" width="20" height="20" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+    <text x="1015" y="218" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">+</text>
+    <rect x="1005" y="230" width="20" height="20" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+    <text x="1015" y="243" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">-</text>
+    <rect x="1005" y="255" width="20" height="20" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+    <circle cx="1015" cy="265" r="4" fill="#2196F3"/>
+    
+    <!-- 하단 이미지 리스트 -->
+    <rect x="760" y="600" width="280" height="50" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" rx="5"/>
+    <text x="770" y="620" fill="#666" font-family="Arial, sans-serif" font-size="10" font-weight="bold">GPS 이미지 목록</text>
+    
+    <!-- 가로 스크롤 이미지들 -->
+    <rect x="770" y="630" width="40" height="15" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="2"/>
+    <rect x="820" y="630" width="40" height="15" fill="#E0E0E0" stroke="#2196F3" stroke-width="2" rx="2"/>
+    <rect x="870" y="630" width="40" height="15" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="2"/>
+    <rect x="920" y="630" width="40" height="15" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="2"/>
+    <rect x="970" y="630" width="40" height="15" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1" rx="2"/>
+  </g>
+  
+  <!-- 연결선과 라벨 -->
+  <path d="M 350 360 L 400 360" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="375" y="355" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">이미지 클릭</text>
+  
+  <path d="M 700 360 L 750 360" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="725" y="355" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">지도 탭</text>
+  
+  <!-- 화살표 마커 정의 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 범례 -->
+  <rect x="50" y="680" width="1000" height="100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" rx="10"/>
+  <text x="60" y="705" fill="#212121" font-family="Arial, sans-serif" font-size="14" font-weight="bold">화면 구성 요소:</text>
+  
+  <rect x="60" y="715" width="15" height="15" fill="#6200EE"/>
+  <text x="85" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">앱바 (AppBar)</text>
+  
+  <rect x="200" y="715" width="15" height="15" fill="#2196F3"/>
+  <text x="225" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">탭 네비게이션</text>
+  
+  <rect x="350" y="715" width="15" height="15" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="375" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">이미지 썸네일</text>
+  
+  <rect x="500" y="715" width="15" height="15" fill="#F44336"/>
+  <text x="525" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">지도 마커</text>
+  
+  <rect x="650" y="715" width="15" height="15" fill="#4CAF50"/>
+  <text x="675" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">GPS 아이콘</text>
+  
+  <rect x="800" y="715" width="15" height="15" fill="#FF9800"/>
+  <text x="825" y="727" fill="#666" font-family="Arial, sans-serif" font-size="12">입력 필드</text>
+</svg>

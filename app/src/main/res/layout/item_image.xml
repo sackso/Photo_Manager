@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 이미지 -->
+        <ImageView
+            android:id="@+id/image_view_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@color/image_placeholder"
+            tools:src="@drawable/ic_launcher_foreground" />
+
+        <!-- GPS 표시 아이콘 -->
+        <ImageView
+            android:id="@+id/icon_gps"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_gps"
+            android:background="@drawable/gps_icon_background"
+            android:padding="2dp"
+            android:visibility="gone" />
+
+        <!-- 이미지 정보 오버레이 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:background="@drawable/image_info_overlay"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/text_image_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="IMG_20240115_143000.jpg" />
+
+            <TextView
+                android:id="@+id/text_file_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"
+                android:textColor="@color/white"
+                android:alpha="0.8"
+                tools:text="2.5 MB" />
+
+        </LinearLayout>
+
+        <!-- 로딩 인디케이터 -->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
